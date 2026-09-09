@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen py-12 md:py-20">
+    <div className="min-h-screen py-6 md:py-8">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center mb-12">

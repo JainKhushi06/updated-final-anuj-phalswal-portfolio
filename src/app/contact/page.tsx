@@ -56,7 +56,7 @@ const collaborationAreas = [
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen py-12 md:py-20">
+    <div className="min-h-screen py-12 md:py-10">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">

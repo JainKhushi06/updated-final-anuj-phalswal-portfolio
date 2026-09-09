@@ -91,10 +91,10 @@ const internships = [
 
 export default function ExperiencePage() {
   return (
-    <div className="min-h-screen py-12 md:py-20">
+    <div className="min-h-screen py-12 md:py-10">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-14">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Professional Experience</h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Leading engineering excellence in the metal and mineral sector with proven impact
@@ -103,7 +103,7 @@ export default function ExperiencePage() {
 
         {/* Professional Experience */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 ml-8">
             <Briefcase className="h-6 w-6 text-primary" />
             Work Experience
           </h2>
@@ -203,7 +203,7 @@ export default function ExperiencePage() {
 
         {/* Internships */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 ml-4">
             <Zap className="h-6 w-6 text-primary" />
             Internships & Training
           </h2>

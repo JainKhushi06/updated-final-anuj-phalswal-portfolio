@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-12 md:py-20 lg:py-32">
+      <section className="relative overflow-hidden pt-4 pb-12 md:pt-8 md:pb-16 lg:pt-8 lg:pb-20">
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Hero Content */}
@@ -86,13 +86,12 @@ export default function Home() {
 
             {/* Hero Image */}
             <div className="order-1 lg:order-2">
-              <div className="relative aspect-video rounded-1xl.5 overflow-hidden shadow-2xl">
+              <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                 <Image
                   src="/upload/GSR_7862.JPG"
                   alt="Anuj Phalswal - President's Awardee receiving award"
                   fill
-                  className="object-cover object-center"
-                  // style={{ objectPosition: "center 35%" }}
+                  className="object-cover object-[center_20%]"
                   priority
                 />
               </div>
