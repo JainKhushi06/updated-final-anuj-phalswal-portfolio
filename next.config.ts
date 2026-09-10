@@ -1,12 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
+  outputFileTracingIncludes: {},
+  outputFileTracingExcludes: {
+    "*": ["./.next/next-server.js.nft.json"],
   },
-  reactStrictMode: false,
 };
 
 export default nextConfig;
