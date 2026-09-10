@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // output: 'standalone',  <-- Is line ko hata dein agar present ho
   typescript: {
-    // Isse TypeScript compilation errors build fail nahi karenge
     ignoreBuildErrors: true,
   },
   eslint: {
-    // Isse ESLint errors bhi deployment block nahi karenge
     ignoreDuringBuilds: true,
   },
 };
